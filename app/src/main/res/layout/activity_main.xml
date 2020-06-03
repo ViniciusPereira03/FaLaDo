@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtNota"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/btnFalar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Falar" />
+
+    <Button
+        android:id="@+id/btnPesquisarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar Nota" />
+
+    <ImageView
+        android:id="@+id/imgVerNota"
+        android:layout_width="match_parent"
+        android:layout_height="376dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/btnOuvirNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ouvir Nota" />
+
+
+</LinearLayout>
