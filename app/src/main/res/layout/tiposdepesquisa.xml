@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:divider="@drawable/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tela3_completo" />
+
+    <Button
+        android:id="@+id/btnTexto"
+        android:layout_width="285dp"
+        android:layout_height="72dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="310dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="texto" />
+
+    <Button
+        android:id="@+id/btnVoz"
+        android:layout_width="266dp"
+        android:layout_height="76dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="520dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""/>
+</RelativeLayout>

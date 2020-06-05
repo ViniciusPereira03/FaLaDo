@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tela5_completo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/txtPesquisar"
+        android:layout_width="142dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="440dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnPesquisar"
+        android:layout_width="279dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/btnFalar"
+        android:layout_width="279dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:divider="@drawable/ic_launcher_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/resultadofinal" />
+
+    <Button
+        android:id="@+id/btbPlay"
+        android:layout_width="228dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="410dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="102dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="610dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <Button
+        android:id="@+id/btnSair"
+        android:layout_width="72dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="610dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text=""
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="528dp" />
+
+    <ImageView
+        android:id="@+id/imgResultadoNota"
+        android:layout_width="256dp"
+        android:layout_height="204dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="210dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+</RelativeLayout>
