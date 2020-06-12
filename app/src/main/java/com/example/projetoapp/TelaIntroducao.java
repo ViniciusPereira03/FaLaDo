@@ -5,20 +5,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
-
-    private Button btnAvancar1, btnAvancar2;
+public class TelaIntroducao extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.introducao);
     }
 
-    public void startTelaIntroducao(View view){
-        Intent tela = new Intent(this, TelaIntroducao.class);
+    public void AvancarTipoPesquisa (View view){
+        Intent tela = new Intent(this, TelaTiposDePesquisa.class);
         startActivity(tela);
     }
 }

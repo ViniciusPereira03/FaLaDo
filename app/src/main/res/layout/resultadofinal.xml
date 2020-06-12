@@ -12,7 +12,7 @@
 >
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/imvNotaResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/resultadofinal" />
@@ -37,7 +37,9 @@
         android:backgroundTint="#00FFFFFF"
         android:text=""
         tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="528dp" />
+        tools:layout_editor_absoluteY="528dp"
+        android:onClick="voltarTipoPesquisa"
+    />
 
     <Button
         android:id="@+id/btnSair"
@@ -47,6 +49,7 @@
         android:layout_marginTop="610dp"
         android:backgroundTint="#00FFFFFF"
         android:text=""
+        android:onClick="fecharApp"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="528dp" />
 

@@ -19,19 +19,21 @@
 
     <Button
         android:id="@+id/btnTexto"
-        android:layout_width="285dp"
-        android:layout_height="72dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="310dp"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="288dp"
         android:backgroundTint="#00FFFFFF"
-        android:text="texto" />
+        android:onClick="telaTexto"
+        android:text="" />
 
     <Button
         android:id="@+id/btnVoz"
-        android:layout_width="266dp"
-        android:layout_height="76dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="520dp"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="490dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="telaFala"
         android:text=""/>
 </RelativeLayout>

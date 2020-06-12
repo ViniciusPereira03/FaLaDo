@@ -19,11 +19,11 @@
 
     <Button
         android:id="@+id/btnAvancarIntro"
-        android:layout_width="291dp"
-        android:layout_height="81dp"
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="570dp"
+        android:layout_width="323dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="540dp"
         android:backgroundTint="#00FFFFFF"
-        android:text=""
-    />
+        android:onClick="AvancarTipoPesquisa"
+        android:text="" />
 </RelativeLayout>
