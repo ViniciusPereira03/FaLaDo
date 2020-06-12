@@ -25,8 +25,8 @@
         android:layout_marginTop="410dp"
         android:backgroundTint="#00FFFFFF"
         android:text=""
-        tools:layout_editor_absoluteX="69dp"
-        tools:layout_editor_absoluteY="528dp" />
+        android:onClick="play"
+        />
 
     <Button
         android:id="@+id/btnVoltar"
