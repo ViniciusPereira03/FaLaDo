@@ -50,6 +50,8 @@ public class TelaResultadoFinal extends AppCompatActivity {
             }else if(nota.toString().equals("b") || nota.toString().equals("si") || nota.toString().equals("si maior") || nota.toString().equals("sí maior")  || nota.toString().equals("sí")){
                 imgNota.setImageResource(R.drawable.b);
                 cifra= 7;
+            }else{
+                imgNota.setImageResource(R.drawable.erro);
             }
         }
 

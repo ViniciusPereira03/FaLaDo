@@ -20,12 +20,14 @@
         android:id="@+id/edtNota"
         android:layout_width="291dp"
         android:layout_height="62dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="310dp"
         android:backgroundTint="#00FFFFFF"
         android:ems="10"
+        android:fontFamily="casual"
         android:inputType="textPersonName"
         android:text=""
-        android:layout_marginLeft="80dp"
-        android:layout_marginTop="310dp" />
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/button3"
