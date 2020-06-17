@@ -14,6 +14,7 @@ public class TelaResultadoFinal extends AppCompatActivity {
     private ImageView imgNota;
     int cifra;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

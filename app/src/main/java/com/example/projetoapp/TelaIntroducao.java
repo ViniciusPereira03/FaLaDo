@@ -14,6 +14,7 @@ public class TelaIntroducao extends AppCompatActivity {
         setContentView(R.layout.introducao);
     }
 
+
     public void AvancarTipoPesquisa (View view){
         Intent tela = new Intent(this, TelaTiposDePesquisa.class);
         startActivity(tela);

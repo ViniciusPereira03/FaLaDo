@@ -20,6 +20,7 @@ public class TelaCampoTexto extends AppCompatActivity {
         txtNota = (EditText)findViewById(R.id.edtNota);
     }
 
+
     public void pesquisar(View view){
         String nota;
         nota = String.valueOf(txtNota.getText().toString());

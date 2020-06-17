@@ -21,6 +21,7 @@ public class TelaReconhecomentoDeVoz extends AppCompatActivity {
     private final int ID_TEXTO_PARA_VOZ = 100;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

@@ -19,6 +19,7 @@ public class TelaTiposDePesquisa extends AppCompatActivity {
         startActivity(tela);
     }
 
+
     public void telaFala(View view){
         Intent tela = new Intent(this, TelaReconhecomentoDeVoz.class);
         startActivity(tela);

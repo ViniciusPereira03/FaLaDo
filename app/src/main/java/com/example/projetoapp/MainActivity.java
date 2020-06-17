@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void startTelaIntroducao(View view){
         Intent tela = new Intent(this, TelaIntroducao.class);
         startActivity(tela);
